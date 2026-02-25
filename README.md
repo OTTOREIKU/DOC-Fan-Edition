@@ -5,7 +5,7 @@ A fan made Derby Owners Club *adjacent* game for the terminal
 
 This is a terminal step/text based version of a Derby Owners Club *like* game. I say like because I've added in some systems that I enjoyed in other racing games and other systems I just wanted to test out and play around with. At its core it's built with the love I had for the original Derby Owners Club. This was built to run in a Windows 11 Terminal so I'm not sure how the icons and colors will translate to other operating systems.
   
-I've tried to balance the overall feel and pacing of the early, mid, and late game but it still needs work. I have not tested playing with generation 5+ as much so im sure this area needs more/better balancing. For now I've slowed development of it as I've begun working on porting it up to GoDOT to build in some animations and eventually spin it into its own game. I am not a proficient coder or game developer so I've used AI to do the heavy lifting in a lot of areas because I simply wanted to make a game that I could spend hours playing and assume I will probably be the only user. If you happen to stumble upon this and want to test it out and give me feedback on various parts of it I would absolutely take those to heart.  
+I've tried to balance the overall feel and pacing of the early, mid, and late game but it still needs work. I have not tested playing with generation 5+ as much so I'm sure this area (late-endgame) needs more/better balancing. For now I've slowed development of it as I've begun working on porting it up to GoDOT to build in some animations and eventually spin it into its own game. I am not a proficient coder or game developer so I've used AI to do some heavy lifting in a lot of the areas while I use this as a learning process to build my skills, but more importantly, I wanted to focus on making something fun to play. If you happen to stumble upon this and want to test it out and give me feedback on various parts of it I would absolutely take those to heart.  
 
 ottoreiku@protonmail.com | Discord: OTTOREIKU
 
@@ -48,7 +48,7 @@ Import or Export horses (Active and Retired) to trade with other players or simp
 - Jockey System  
 This is a work in progress and not at a place that I am fully happy with. It is disabled by default but you can turn it on in the settings if you want to try it. Once enabled it will add a new area to the compendium where you can get more info on it.  
   
---- There are still a lot of things I need to fix up (this is an alpha after all) so alot of the naming and prices etcetc are going to be changing as I refine everything. You will certainly find errors but I hope you have fun ---
+--- There are still a lot of things I need to fix up (this is an alpha after all) so a lot of the naming and prices etcetc are going to be changing as I refine everything. You will certainly find errors but I hope you have fun ---
   
 =============  
 
