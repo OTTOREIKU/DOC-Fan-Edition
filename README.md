@@ -13,7 +13,7 @@ ottoreiku@protonmail.com | Discord: OTTOREIKU
 
 ### Features:  
 
-*(some of the features you have to purchase from the store to be able to use)*  
+*(some of the features you have to purchase from the in-game store to be able to use)*  
   
 - Market  
 Dynamic marketplace generating random horses every month to purchase. New markets appear once you breed new generations of horses.  
