@@ -48,7 +48,8 @@ Import or Export horses (Active and Retired) to trade with other players or simp
 - Jockey System  
 This is a work in progress and not at a place that I am fully happy with. It is disabled by default but you can turn it on in the settings if you want to try it. Once enabled it will add a new area to the compendium where you can get more info on it.  
   
-
+--- There are still a lot of things I need to fix up (this is an alpha after all) so alot of the naming and prices etcetc are going to be changing as I refine everything. You will certainly find errors but I hope you have fun ---
+  
 =============  
 
 Once you buy your first horse from the market the game will create your stable.json file **in the same location as the EXE** so keep that in mind if you end up moving your game to a new location. When using the Trade Hub to generate cards the game will **make a new 'cards' folder in the same location as the EXE** as well.  
