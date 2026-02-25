@@ -83,6 +83,10 @@ This is a passion project for educational and entertainment purposes that has no
   
 =============  
   
+<img width="723" height="962" alt="12" src="https://github.com/user-attachments/assets/cc9c4edb-03c8-48e4-b47b-3e0c2deef645" />
+  
+=============  
+  
 <img width="608" height="817" alt="7" src="https://github.com/user-attachments/assets/1a9ee976-d527-4516-9539-a46a763e58ad" />
   
 =============  
