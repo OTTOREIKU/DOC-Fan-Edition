@@ -56,7 +56,7 @@ Once you buy your first horse from the market the game will create your stable.j
 
 =============  
 
-This is a passion project for educational and entertainment purposes that has no relation to Derby Owners Club or SEGA branding other than in name  
+This is a passion project for educational and entertainment purposes that has no official relation to Derby Owners Club or SEGA branding other than in name  
   
 =============  
   
