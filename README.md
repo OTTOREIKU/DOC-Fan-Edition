@@ -7,6 +7,8 @@ This is a terminal step/text based version of a Derby Owners Club *like* game. I
   
 I've tried to balance the overall feel and pacing of the early, mid, and late game but it still needs work. I have not tested playing with generation 5+ as much so im sure this area needs more/better balancing. For now I've slowed development of it as I've begun working on porting it up to GoDOT to build in some animations and eventually spin it into its own game. I am not a proficient coder or game developer so I've used AI to do the heavy lifting in a lot of areas because I simply wanted to make a game that I could spend hours playing and assume I will probably be the only user. If you happen to stumble upon this and want to test it out and give me feedback on various parts of it I would absolutely take those to heart.  
 
+ottoreiku@protonmail.com | Discord: OTTOREIKU
+
 =============  
 
 ### Features:  
@@ -53,4 +55,53 @@ Once you buy your first horse from the market the game will create your stable.j
 
 =============  
 
-This is a passion project for educational and entertainment purposes that has no relation to Derby Owners Club or SEGA branding other than in name
+This is a passion project for educational and entertainment purposes that has no relation to Derby Owners Club or SEGA branding other than in name  
+  
+=============  
+  
+<img width="587" height="374" alt="1" src="https://github.com/user-attachments/assets/890b55d0-b834-42e8-a748-bd9db018733a" />
+  
+=============  
+  
+<img width="589" height="532" alt="2" src="https://github.com/user-attachments/assets/8bc4ed76-3990-49f1-a503-d53d417aad5a" />
+  
+=============  
+  
+<img width="585" height="307" alt="3" src="https://github.com/user-attachments/assets/3df3bfb6-a577-4ea8-bf42-ba605ad2d795" />
+  
+=============  
+  
+<img width="589" height="378" alt="4" src="https://github.com/user-attachments/assets/c7de835d-9901-4c61-999b-5ad4c6a4a353" />
+  
+=============  
+  
+<img width="602" height="432" alt="5" src="https://github.com/user-attachments/assets/0b1da003-a1c3-42b9-aa62-24f33c94fb33" />
+  
+=============  
+  
+<img width="612" height="418" alt="6" src="https://github.com/user-attachments/assets/99dabe4f-6608-4ed7-bbbc-960a3a0ccc46" />
+  
+=============  
+  
+<img width="608" height="817" alt="7" src="https://github.com/user-attachments/assets/1a9ee976-d527-4516-9539-a46a763e58ad" />
+  
+=============  
+  
+<img width="611" height="737" alt="8" src="https://github.com/user-attachments/assets/cfe5b22c-1b4d-4b6f-ac70-aaa159558fd8" />
+  
+=============  
+  
+<img width="594" height="321" alt="9" src="https://github.com/user-attachments/assets/a3fe2f56-d1aa-4a85-9de7-e15e584bd1d5" />
+  
+=============  
+  
+<img width="595" height="576" alt="10" src="https://github.com/user-attachments/assets/fe324b9c-da77-469b-bb5b-76b36641b35a" />
+  
+=============  
+  
+<img width="700" height="578" alt="11" src="https://github.com/user-attachments/assets/c0d9015b-f22c-4129-bf4c-c2e146386a51" />
+  
+=============  
+  
+ <img width="400" height="860" alt="Noble Cloud_Gen1_Collection" src="https://github.com/user-attachments/assets/d70c1587-18d6-4526-97a3-3304fd97a3d1" />
+ <img width="400" height="860" alt="Silent Knight_Gen0_Trade" src="https://github.com/user-attachments/assets/7c8b9ddb-36ac-4adc-835d-feed6f0d3912" />
