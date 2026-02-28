@@ -58,7 +58,7 @@ Once you buy your first horse from the market the game will create your stable.j
 
 **Starting Tips:**  
 - First thing you need to do is go to the market and buy a horse. Then back out to the main menu and go to your active stable, pick your horse, and enter the calendar to begin training and racing.
-- Gen0 horses (your first horse) are not supposed to be super strong. You want to race your horse until you notice it's not getting stats anymore (it hit its cap) and then you want to purchase the opposite gender and race them. Once you have two horses max stats and retired you breed them to make a Gen1 horse which will have higher max caps for their stats. Thats the bassic loop - train to max, breed to get higher generation, etc
+- Gen0 horses (your first horse) are not supposed to be super strong. You want to race your horse until you notice it's not getting stats anymore (it hit its cap) and then you want to purchase the opposite gender and race them. Once you have two horses max stats and retired, you breed them to make a Gen1 horse which will have higher max caps for their stats. Thats the basic loop - train to max, breed to get higher generation, etc
   
 =============  
 
