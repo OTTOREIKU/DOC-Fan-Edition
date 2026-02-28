@@ -53,9 +53,21 @@ This is a work in progress and not at a place that I am fully happy with. It is 
 =============  
 
 Once you buy your first horse from the market the game will create your stable.json file **in the same location as the EXE** so keep that in mind if you end up moving your game to a new location. When using the Trade Hub to generate cards the game will **make a new 'cards' folder in the same location as the EXE** as well.  
-
+  
 =============  
 
+**Starting Tips:**  
+- First thing you need to do is go to the market and buy a horse. Then back out to the main menu and go to your active stable, pick your horse, and enter the calendar to begin training and racing.
+- Gen0 horses (your first horse) are not supposed to be super strong. You want to race your horse until you notice it's not getting stats anymore (it hit its cap) and then you want to purchase the opposite gender and race them. Once you have two horses max stats and retired you breed them to make a Gen1 horse which will have higher max caps for their stats. Thats the bassic loop - train to max, breed to get higher generation, etc
+  
+=============  
+
+**Known Issues:**  
+- Entering the market might crash the game. If you launch the exe as administrator it seems to fix it however it then changes all the icons so the game looks a little boring
+- after a race when you feed your horse if a random event happens it skips the screen too quickly and you miss seeing the stat gain. Don't worry, it still got the stat it just cleared the screen too fast
+    
+=============  
+  
 This is a passion project for educational and entertainment purposes that has no official relation to Derby Owners Club or SEGA branding other than in name  
   
 =============  
