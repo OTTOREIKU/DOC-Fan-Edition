@@ -9,7 +9,7 @@ class TradeCenter:
         self.stable_mgr = stable_mgr
         self.card_gen = CardGenerator()
 
-    def enter(self, capacity, current_active_param): # the passed parameter is now ignored and recalculated
+    def enter(self, capacity, current_active_param):
         while True:
             clear_screen()
             print("\n" + "🌐"*32)
@@ -131,8 +131,6 @@ class TradeCenter:
         print("IMPORT FRIEND'S HORSE".center(64))
         print("📥"*32)
         
-        # --- DYNAMIC CAPACITY CALCULATION FIX ---
-        # Recalculates exact slots the second you open the import menu!
         saved_horses = self.stable_mgr.get_saved_horses()
         current_active = len([h for h in saved_horses if not h.is_retired and not getattr(h, 'is_npc', False)])
         
@@ -232,4 +230,5 @@ class TradeCenter:
         if confirm == 'Y':
             self.stable_mgr.save_horse(imported_horse)
             print(f"\n🎉 Welcome to your new home, {imported_horse.name}!")
+
             input("Press Enter to continue...")
