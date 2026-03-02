@@ -155,7 +155,6 @@ class RaceEngine:
                 grt_val = horse.cur_grit * c_mod
             else:
                 mod_cond = c_mod - 1.0
-                # --- PULL DEBUFF FROM CONFIG. DEFAULTS TO 1.0 FOR UNDEFINED GENS ---
                 gen_multiplier = GENERATION_MULTIPLIERS.get(getattr(horse, 'generation', 0), 1.0)
                 mod_gen = gen_multiplier - 1.0
                 
@@ -198,7 +197,6 @@ class RaceEngine:
                     if j_lvl >= 10:
                         syn_spd_list.append(0.03); syn_sta_list.append(0.03); syn_grt_list.append(0.03)
 
-                # --- ⚙️ PULL TOGGLE FROM CONFIG ⚙️ ---
                 if BUFF_MATH_MODE == "additive":
                     pool_spd = 1.0 + mod_cond + mod_gen + mod_beer + mod_mom + sum(syn_spd_list)
                     pool_sta = 1.0 + mod_cond + mod_gen + mod_beer + mod_mom + sum(syn_sta_list)
@@ -761,4 +759,5 @@ class RaceEngine:
         else:
             horse.style_points = {} 
                 
+
         return winnings, did_win
