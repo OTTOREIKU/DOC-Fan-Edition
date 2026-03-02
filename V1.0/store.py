@@ -14,7 +14,6 @@ class Store:
     def _get_assistant_trainer_cost(self, level):
         return {1: 100000, 2: 300000, 3: 750000, 4: 1250000, 5: 2000000}.get(level, 0)
 
-    # --- NEW SCOUTING NETWORK COST ---
     def _get_scouting_cost(self, level):
         return {1: 150000, 2: 300000, 3: 750000, 4: 2000000, 5: 10000000}.get(level, 0)
 
@@ -73,7 +72,6 @@ class Store:
             if at_lvl < 5: print(f" [5] Assistant Trainer  (Lvl {at_lvl} -> {at_lvl+1}) - ${at_cost:,}\n     -> Passively trains benched horses (+{(at_lvl+1)*0.1:.1f}/mo)")
             else: print(f" [5] Assistant Trainer  - MAXED OUT\n     -> Passively trains benched horses (+0.5/mo)")
 
-            # --- NEW SCOUTING NETWORK SHOP UI ---
             sn_lvl = upgrades.get('scouting_network_lvl', 0)
             sn_cost = self._get_scouting_cost(sn_lvl + 1)
             if sn_lvl < 5: print(f" [6] Scouting Network   (Lvl {sn_lvl} -> {sn_lvl+1}) - ${sn_cost:,}\n     -> Boosts Market size and starting stats")
@@ -104,7 +102,6 @@ class Store:
             print(f"[12] Stud Syndicate ({ss_status})".ljust(38) + "- Unlocks the national breeding market")
             print(f"[13] Master DNA Scanner ({md_status})".ljust(38) + "- Reveals mutations & bloodline traits")
             print(f"[14] Jockey Guild License ({jg_status})".ljust(38) + "- Hire professional riders for races")
-            # --- NEW BRIBE TECH ITEM ---
             print(f"[15] Bribe the Auctioneer ({ba_status})".ljust(38) + "- Unlocks the ability to reroll market")
 
             print("\n" + "--- THE MILLIONAIRE'S CLUB ".ljust(64, "-"))
@@ -199,4 +196,5 @@ class Store:
             print(f"\n🛍️ Purchased {qty}x {item_name} for ${total_cost:,}!")
         else:
             print(f"\n❌ Not enough funds! You need ${total_cost - credits:,} more for that quantity.")
+
         input("Press Enter to continue...")
