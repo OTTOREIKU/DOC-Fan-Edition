@@ -11,7 +11,7 @@ class CoatGenetics:
         return {
             "E": roll(['E', 'e'], [0.5, 0.5]),
             "A": roll(['A', 'a'], [0.5, 0.5]),
-            "G": roll(['G', 'g'], [0.1, 0.9]),     # NEW: Grey Gene
+            "G": roll(['G', 'g'], [0.1, 0.9]),
             "Cr": roll(['Cr', 'n'], [0.1, 0.9]),
             "D": roll(['D', 'n'], [0.1, 0.9]),
             "Ch": roll(['Ch', 'n'], [0.05, 0.95]),
@@ -21,9 +21,9 @@ class CoatGenetics:
             "O": roll(['O', 'n'], [0.1, 0.9]),
             "Lp": roll(['Lp', 'n'], [0.05, 0.95]),
             "Br": roll(['Br', 'n'], [0.05, 0.95]), 
-            "Spl": roll(['Spl', 'n'], [0.05, 0.95]), # NEW: Splash Pattern
-            "Sb": roll(['Sb', 'n'], [0.05, 0.95]),   # NEW: Sabino Pattern
-            "Rb": roll(['Rb', 'n'], [0.05, 0.95]),   # NEW: Rabicano Pattern
+            "Spl": roll(['Spl', 'n'], [0.05, 0.95]),
+            "Sb": roll(['Sb', 'n'], [0.05, 0.95]),
+            "Rb": roll(['Rb', 'n'], [0.05, 0.95]),
             "F": roll(['Star', 'Blaze', 'n'], [0.2, 0.1, 0.7]),
             "L": roll(['Sock', 'Stocking', 'n'], [0.2, 0.1, 0.7]),
             "Mut": ['n', 'n'] 
@@ -36,7 +36,6 @@ class CoatGenetics:
             dam_gene = dam.get(key, ['n', 'n'])
             dna[key] = [random.choice(sire_gene), random.choice(dam_gene)]
             
-        # Safe-loads for the new genes in case you breed old horses!
         for new_gene in ["G", "Spl", "Sb", "Rb"]:
             if new_gene not in dna:
                 dna[new_gene] = [random.choice(sire.get(new_gene, ['n', 'n'])), random.choice(dam.get(new_gene, ['n', 'n']))]
@@ -55,7 +54,6 @@ class CoatGenetics:
         elif e_gene and not a_gene: base = "Black"
         else: base = random.choice(["Chestnut", "Sorrel"]) 
 
-        # NEW: The Grey modifier overrides the visual base coat
         g_gene = 'G' in dna.get('G', ['g', 'g'])
         if g_gene:
             base = random.choice(["Grey", "Dapple Grey", "Fleabitten Grey"])
@@ -100,9 +98,9 @@ class CoatGenetics:
         if 'O' in dna.get('O', ['n', 'n']): patterns.append("Overo")
         if 'Lp' in dna.get('Lp', ['n', 'n']): patterns.append("Appaloosa")
         if 'Br' in dna.get('Br', ['n', 'n']): patterns.append("Brindle") 
-        if 'Spl' in dna.get('Spl', ['n', 'n']): patterns.append("Splash") # NEW
-        if 'Sb' in dna.get('Sb', ['n', 'n']): patterns.append("Sabino")   # NEW
-        if 'Rb' in dna.get('Rb', ['n', 'n']): patterns.append("Rabicano") # NEW
+        if 'Spl' in dna.get('Spl', ['n', 'n']): patterns.append("Splash")
+        if 'Sb' in dna.get('Sb', ['n', 'n']): patterns.append("Sabino")
+        if 'Rb' in dna.get('Rb', ['n', 'n']): patterns.append("Rabicano")
 
         if patterns:
             base = f"{base} {'-'.join(patterns)}"
@@ -123,13 +121,11 @@ class CoatGenetics:
         import random
         foal_dna = {}
         
-        # Loop through every genetic trait (Extension, Agouti, Roan, etc.)
         for gene in sire_dna.keys():
-            # The foal gets exactly ONE random allele from the dad, and ONE from the mom!
             sire_allele = random.choice(sire_dna.get(gene, ['n', 'n']))
             dam_allele = random.choice(dam_dna.get(gene, ['n', 'n']))
             
-            # Combine them for the baby! (Sorting puts Capital/Dominant letters first nicely)
             foal_dna[gene] = sorted([sire_allele, dam_allele])
             
+
         return foal_dna
