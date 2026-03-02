@@ -339,7 +339,6 @@ class StableManager:
         
         return True, "Market successfully rerolled!"
 
-    # --- UPDATED TO ENFORCE TRAINING CAP AND RETURN FINISHED HORSES ---
     def auto_train_benched(self, active_horse_id):
         data = self.load_data()
         upgrades = data.get("upgrades", {})
@@ -452,4 +451,5 @@ class StableManager:
         data = self.load_data()
         if item_key not in data["inventory"]: data["inventory"][item_key] = 0
         data["inventory"][item_key] += amount
+
         self.save_data(data)
