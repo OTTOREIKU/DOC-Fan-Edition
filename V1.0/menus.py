@@ -465,7 +465,6 @@ def show_compendium(stable_mgr):
         settings = stable_mgr.get_settings()
         jockey_on = settings.get("jockey_system", True)
         
-        # --- UI CHANGE: Q ALWAYS ON THE LEFT ---
         if jockey_on:
             print(" [Q] Back | [P] Preview Discovered Coats | [J] Jockey Guild Info")
         else:
@@ -484,13 +483,12 @@ def get_active_hof_buffs(stable_mgr):
             for title in h.titles:
                 for e in events:
                     if e["title"] == title: buffs.add(e["buff_name"])
-                # --- UPDATED TO INCLUDE THE FUSED MYTHIC TITLES ---
                 boss_titles = ["Shadow Slayer", "Storm Chaser", "Iron Breaker", "Dream Weaver", "Sun God", "Void Walker", "Phantom Terror", "Golden Emperor", "Nightmare Weaver", "Thunderous Iron", "Track Sovereign"]
                 if title in boss_titles:
                     buffs.add(title)
     return list(buffs)
 
-# --- NEW DETAILED ACTIVE BUFFS MENU ---
+# --- ACTIVE BUFFS MENU ---
 def show_active_buffs_menu(stable_mgr):
     while True:
         clear_screen()
@@ -733,4 +731,5 @@ def farm_menu(stable_mgr):
                         stable_mgr.save_horse(selected)
                         print(f"\n📦 {selected.name} has been safely archived.")
                         input("Press Enter to continue...")
+
                         break
