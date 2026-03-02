@@ -2,7 +2,7 @@ import random
 
 class CalendarEvents:
     def __init__(self):
-        # Database of special championship races
+      
         self.events = [
             {
                 "month": 3, 
@@ -17,7 +17,7 @@ class CalendarEvents:
                 "buff_name": "Wind Rider",
                 "buff_desc": "Slightly reduces stamina drain for Front-runners out of the gate."
             },
-            # --- AGE 3 EXCLUSIVE (The Classics) ---
+            # --- AGE 3 EXCLUSIVE ---
             {
                 "month": 4, 
                 "week": 4,
@@ -30,7 +30,7 @@ class CalendarEvents:
                 "title": "Guineas Victor",
                 "buff_name": "Guineas Heritage",
                 "buff_desc": "10% discount on all consumables in the Store.",
-                "age_req": [2, 3] # Allows late 2yos or 3yos
+                "age_req": [2, 3]
             },
             {
                 "month": 6, 
@@ -45,7 +45,7 @@ class CalendarEvents:
                 "buff_name": "Classic Heritage",
                 "buff_desc": "+10% to all Training stat gains."
             },
-            # --- AGE 4 & 5 ROTATING EVENTS (Month 8 Pool) ---
+            # --- AGE 4 & 5 ROTATING EVENTS ---
             {
                 "month": 8, 
                 "week": 4, 
@@ -129,7 +129,7 @@ class CalendarEvents:
                 "buff_desc": "The ultimate achievement. +5% to all training gains for future generations.",
                 "age_req": [7, 8, 9, 10]
             },
-            # --- STANDARD DERBY (For horses that aren't 6+ yet) ---
+            # --- STANDARD DERBY ---
             {
                 "month": 12, 
                 "week": 5, 
@@ -137,7 +137,7 @@ class CalendarEvents:
                 "req_classes": ["G1"], 
                 "distance": 2400, 
                 "surface": "Turf",
-                "forced_condition": None, # Random weather!
+                "forced_condition": None,
                 "purse": 500000,
                 "title": "Grand Derby Winner",
                 "buff_name": "Derby Dynasty",
@@ -161,10 +161,8 @@ class CalendarEvents:
         if len(valid_events) == 1:
             return valid_events[0]
             
-        # Randomly select one if there is a rotation pool (like Age 4/5 Month 8)
-        # We seed it with the horse's ID and Age so the event doesn't magically 
-        # change if the player exits and re-enters the menu to reroll!
         random.seed(f"{horse.id}_{horse.age}_{horse.month}")
         chosen = random.choice(valid_events)
-        random.seed() # reset RNG
+        random.seed()
+
         return chosen
