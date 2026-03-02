@@ -25,7 +25,6 @@ class TrainingFacility:
 
         if action == '4':
             if horse.fatigue >= 90:
-                # --- PULL RESTING STATS FROM CONFIG ---
                 rest_fatg = SPA_REST_FATG if has_spa else STD_REST_FATG
                 rest_mood = SPA_REST_MOOD if has_spa else STD_REST_MOOD
                 horse.fatigue = max(0.0, horse.fatigue - rest_fatg)
@@ -63,7 +62,6 @@ class TrainingFacility:
             return res
 
         elif action == '5':
-            # --- PULL RESTING STATS FROM CONFIG ---
             rest_fatg = SPA_REST_FATG if has_spa else STD_REST_FATG
             rest_mood = SPA_REST_MOOD if has_spa else STD_REST_MOOD
             horse.fatigue = max(0.0, horse.fatigue - rest_fatg)
@@ -80,7 +78,6 @@ class TrainingFacility:
             s_gain, st_gain, g_gain = 0, 0, 0
             
             if action == '1': 
-                # --- FACILITY BONUS FROM CONFIG ---
                 turf_multi = 1.0 + ((turf_lvl - 1) * FACILITY_BONUS_PER_LVL)
                 s_gain = max(0.2, 1.8 * room_spd * turf_multi)
                 st_gain = max(0.1, 0.4 * room_sta)
@@ -126,5 +123,6 @@ class TrainingFacility:
                 if has_vet: res += " (Vet Clinic reduced recovery time!)"
                 
             return res
+
 
         return "\nInvalid Action."
