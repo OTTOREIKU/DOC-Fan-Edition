@@ -11,7 +11,6 @@ from art_generator import ArtGenerator
 from spawner import Horse 
 from trade_center import TradeCenter 
 
-# --- ADDED show_active_buffs_menu IMPORT ---
 from menus import clear_screen, dna_scanner, show_compendium, show_hall_of_fame, farm_menu, get_active_hof_buffs, show_lineage, get_letter_grade, show_active_buffs_menu
 from horse_manager import manage_active_horse 
 
@@ -406,5 +405,6 @@ def main():
                     input("Press Enter to continue...")
                     
         elif choice == 'Q': sys.exit()
+
 
 if __name__ == "__main__": main()
