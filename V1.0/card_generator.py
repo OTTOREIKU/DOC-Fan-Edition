@@ -113,7 +113,6 @@ class CardGenerator:
         except Exception as e:
             return None
 
-    # --- RESTORED COLOR MEMORY FIX + VIBRANT MATH ---
     def _draw_ansi_text(self, draw, x_start, y, text, font, char_width, start_color="#ffffff"):
         current_color = start_color
         parts = re.split(r'\x1b\[([0-9;]*)m', text)
@@ -155,7 +154,7 @@ class CardGenerator:
                     draw.text((x, y), part, fill=current_color, font=font)
                     x += len(part) * char_width
         
-        return current_color # Passes the active color back out so the next line remembers it!
+        return current_color
 
     def _draw_star(self, draw, cx, cy, radius, fill):
         points = []
@@ -203,7 +202,6 @@ class CardGenerator:
             small_bold = ImageFont.load_default()
             code_font = ImageFont.load_default()
         
-        # --- UPSCALED FONT FOR LARGER HORSE ---
         try:
             art_font = ImageFont.truetype("consola.ttf", 24) 
         except IOError:
@@ -273,10 +271,8 @@ class CardGenerator:
             clean_line = re.sub(r'\x1b\[[0-9;]*m', '', line)
             if clean_line.strip() == '': continue
             
-            # Draw text and save the color state for the next line!
             current_art_color = self._draw_ansi_text(draw, global_x_start, art_y, line, art_font, char_width, current_art_color)
             
-            # --- FONT IS 24, LINE HEIGHT IS 20 (Perfect Squish Ratio) ---
             art_y += 20 
 
         info_y = art_box_top + art_box_height + 15
@@ -427,4 +423,5 @@ class CardGenerator:
         
         img.save(filepath, pnginfo=metadata)
         
+
         return filepath, trade_code
