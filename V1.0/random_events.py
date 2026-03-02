@@ -2,7 +2,6 @@ import random
 import textwrap
 import os
 
-# --- IMPORT OUR NEW CONFIG SYSTEM ---
 from config import EVENT_CHANCE_TRAINING, EVENT_CHANCE_RACING, EVENT_CHANCE_BREEDING
 
 class EventManager:
@@ -57,7 +56,6 @@ class EventManager:
     def trigger_event(self, horse, stable_mgr, event_type="training", did_win=False):
         roll = random.random()
 
-        # --- TRIGGERS PULLED FROM CONFIG ---
         if event_type == "training":
             trigger_chance = EVENT_CHANCE_TRAINING 
             bad_threshold = 0.10  
@@ -91,7 +89,6 @@ class EventManager:
         return True
 
     def trigger_breeding_event(self, horse, stable_mgr):
-        # --- TRIGGER PULLED FROM CONFIG ---
         if random.random() > EVENT_CHANCE_BREEDING: 
             return False
             
@@ -230,4 +227,5 @@ class EventManager:
             print(f"  ⚡ Received x{items['paste']} Electrolyte Paste!")
 
         print("=" * 64)
+
         input("\nPress Enter to continue...")
