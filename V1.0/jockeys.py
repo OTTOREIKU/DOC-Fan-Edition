@@ -5,7 +5,6 @@ class JockeyManager:
     def select_jockey(my_horse, selected_race, stable_mgr, upgrades, settings, clear_screen_func):
         """Handles the Jockey Selection UI and returns the chosen jockey dict (or None if cancelled)."""
         if not settings.get("jockey_system", True):
-            # SYSTEM OFF: Returns a completely neutral rider with exactly 0% cut.
             return {"id": "apprentice", "name": "Standard Rider", "archetype": "Apprentice", "level": 0, "fee": 0, "purse_cut": 0.0}
             
         if not upgrades.get("jockey_guild", False):
@@ -92,7 +91,7 @@ class JockeyManager:
         if not chosen_jockey or chosen_jockey["id"] == "apprentice":
             return injury_multiplier
             
-        # 1. Post-Race XP Progression (NOW ONLY TRIGGERS ON SPECIAL EVENT WINS)
+        # 1. Post-Race XP Progression
         if did_win and is_special_race:
             roster = stable_mgr.get_jockey_roster()
             for j in roster:
@@ -122,4 +121,5 @@ class JockeyManager:
         if chosen_jockey.get("archetype") == "The Caretaker" and chosen_jockey.get("level", 0) >= 7:
             injury_multiplier = 0.25 
             
+
         return injury_multiplier
