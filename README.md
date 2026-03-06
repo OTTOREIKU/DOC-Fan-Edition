@@ -23,7 +23,7 @@ Choose a horse and take on races throughout the month with dynamic random events
 Build tension by strategically holding your horse and unleash it when whipping. Whipping your horse will build strain and cause the horse to use extra stamina. Release strain by holding, coasting, or urging. Mix in different actions to balance these two.  
   
 - Breeding / Genetics  
-Fairly in depth breeding with systems built to pass down genetic markers, boss titles, and maximum potential stats. Currently supporting Generations 0-10 with Gen 6+ having legendary colors & coats.
+Fairly in depth breeding with systems built to pass down genetic markers, boss titles, and maximum potential stats. Currently supporting Generations 0-10 with Gen 6+ having legendary colors & coats.  
 *This system has been expanded upon in 2.0 with a few extra features*  
   
 - Farm / Riding Academy  
