@@ -1,11 +1,9 @@
-# DOC-Fan-Edition
-A fan made Derby Owners Club *adjacent* game for the terminal
+# DOC-Fan-Edition aka Derby Dynasty
+A fan made Derby Owners Club *adjacent* game for the terminal and beyond
 
 =============
 
-This is a terminal step/text based version of a Derby Owners Club *like* game. I say like because I've added in some systems that I enjoyed in other racing games and other systems I just wanted to test out and play around with. At its core it's built with the love I had for the original Derby Owners Club. This was built to run in a Windows 11 Terminal so I'm not sure how the icons and colors will translate to other operating systems.
-  
-I've tried to balance the overall feel and pacing of the early, mid, and late game but it still needs work. I have not tested playing with generation 5+ as much so I'm sure this area (late-endgame) needs more/better balancing. For now I've slowed development of it as I've begun working on porting it up to GoDOT to build in some animations and eventually spin it into its own game. I am not a proficient coder or game developer so I've used AI to do some heavy lifting in a lot of the areas while I use this as a learning process to build my skills, but more importantly, I wanted to focus on making something fun to play. If you happen to stumble upon this and want to test it out and give me feedback on various parts of it I would absolutely take those to heart.  
+The first version of this game was made with python and only worked in the terminal, it essentially was a turn based horse racing game. I have since been working on porting it into GoDOT and have a working alpha. Alpha 2.0 doesnt have the trading feature (*yet*) but I am slowly bringing everything online as I learn how to use this new game engine. The alpha release is no where close to how I want to game to feel however it is in a functional-playable state right now so I wanted to put it out there in case anyone else has the itch for a DOC-spirited game. Hopefully in the next year I can ship a beautiful, functional, horse racing simulator.
 
 ottoreiku@protonmail.com | Discord: OTTOREIKU
 
@@ -21,11 +19,12 @@ Dynamic marketplace generating random horses every month to purchase. New market
 - Active Stable / Racing  
 Choose a horse and take on races throughout the month with dynamic random events. Train your horse in between weeks to build up their stats.  
 
-- Tension / Strain system  
+- Tension / Strain system  (**This has been removed in 2.0**)  
 Build tension by strategically holding your horse and unleash it when whipping. Whipping your horse will build strain and cause the horse to use extra stamina. Release strain by holding, coasting, or urging. Mix in different actions to balance these two.  
   
 - Breeding / Genetics  
-Fairly in depth breeding with systems built to pass down genetic markers, boss titles, and maximum potential stats. Currently supporting Generations 0-10 with Gen 6+ having legendary colors & coats.  
+Fairly in depth breeding with systems built to pass down genetic markers, boss titles, and maximum potential stats. Currently supporting Generations 0-10 with Gen 6+ having legendary colors & coats.
+*This system has been expanded upon in 2.0 with a few extra features*  
   
 - Farm / Riding Academy  
 Retired horses live on the farm and contribute lifetime earned titles to give bonuses to the entire stable. Move your horse over to the Riding Academy to help train other horses and make extra monthly income based on the stats of the horse at retirement.  
@@ -38,14 +37,16 @@ Keep track of your retired horses and see which titles are giving bonuses to you
   
 - Compendium  
 General rules and conditions are housed here as well as an area to keep track of discovered titles and what they do along with bosses. Preview discovered rare coats/colors.  
+*This system is much larger and covers more of the math behind the game in the 2.0 version*  
 
 - Bosses  
 Handful of powerful boss horses that have a low chance to spawn in your races. Beat them to take their titles and gain permanent buffs.  
+*Rivals have also been added to 2.0*  
   
-- Trading Hub  
+- Trading Hub (**Not yet functional in 2.0**)  
 Import or Export horses (Active and Retired) to trade with other players or simply generate a card for your collection. Horse trading data is encoded to the metadata of the generated PNG image so you can simply send someone the card file and the game can import directly from that. This is still a work in progress but I tried to emulate the physical cards from DOC.  
   
-- Jockey System  
+- Jockey System (**This system has been removed in 2.0**)  
 This is a work in progress and not at a place that I am fully happy with. It is disabled by default but you can turn it on in the settings if you want to try it. Once enabled it will add a new area to the compendium where you can get more info on it.  
   
 --- There are still a lot of things I need to fix up (this is an alpha after all) so a lot of the naming and prices etcetc are going to be changing as I refine everything. You will certainly find errors but I hope you have fun ---
@@ -53,6 +54,7 @@ This is a work in progress and not at a place that I am fully happy with. It is 
 =============  
 
 Once you buy your first horse from the market the game will create your stable.json file **in the same location as the EXE** so keep that in mind if you end up moving your game to a new location. When using the Trade Hub to generate cards the game will **make a new 'cards' folder in the same location as the EXE** as well.  
+*In 2.0 the save is currently stored in Appdata/Roaming/Godot/app_userdata/DerbyDynasty*
   
 =============  
 
@@ -62,13 +64,15 @@ Once you buy your first horse from the market the game will create your stable.j
   
 =============  
 
-**Known Issues:**  
+**Known Issues (for 1.0):**  
 - Entering the market might crash the game. If you launch the exe as administrator it seems to fix it however it then changes all the icons so the game looks a little boring
 - after a race when you feed your horse if a random event happens it skips the screen too quickly and you miss seeing the stat gain. Don't worry, it still got the stat it just cleared the screen too fast
     
 =============  
   
 This is a passion project for educational and entertainment purposes that has no official relation to Derby Owners Club or SEGA branding other than in name  
+  
+I've used AI in parts of the development, mainly the math for the stats, AI horses, scaling, and racing as well as text in the giant compendium in 2.0. Once I have it in a place that I like, I am going to hire an artist to create all of the assets and someone to copyedit/proof all of the text.
   
 =============  
   
@@ -80,19 +84,11 @@ This is a passion project for educational and entertainment purposes that has no
   
 =============  
   
-<img width="585" height="307" alt="3" src="https://github.com/user-attachments/assets/3df3bfb6-a577-4ea8-bf42-ba605ad2d795" />
-  
-=============  
-  
 <img width="589" height="378" alt="4" src="https://github.com/user-attachments/assets/c7de835d-9901-4c61-999b-5ad4c6a4a353" />
   
 =============  
   
 <img width="602" height="432" alt="5" src="https://github.com/user-attachments/assets/0b1da003-a1c3-42b9-aa62-24f33c94fb33" />
-  
-=============  
-  
-<img width="612" height="418" alt="6" src="https://github.com/user-attachments/assets/99dabe4f-6608-4ed7-bbbc-960a3a0ccc46" />
   
 =============  
   
@@ -104,21 +100,14 @@ This is a passion project for educational and entertainment purposes that has no
   
 =============  
   
-<img width="611" height="737" alt="8" src="https://github.com/user-attachments/assets/cfe5b22c-1b4d-4b6f-ac70-aaa159558fd8" />
-  
-=============  
-  
-<img width="594" height="321" alt="9" src="https://github.com/user-attachments/assets/a3fe2f56-d1aa-4a85-9de7-e15e584bd1d5" />
-  
-=============  
-  
-<img width="595" height="576" alt="10" src="https://github.com/user-attachments/assets/fe324b9c-da77-469b-bb5b-76b36641b35a" />
-  
-=============  
-  
 <img width="700" height="578" alt="11" src="https://github.com/user-attachments/assets/c0d9015b-f22c-4129-bf4c-c2e146386a51" />
   
 =============  
   
  <img width="400" height="860" alt="Noble Cloud_Gen1_Collection" src="https://github.com/user-attachments/assets/d70c1587-18d6-4526-97a3-3304fd97a3d1" />
  <img width="400" height="860" alt="Silent Knight_Gen0_Trade" src="https://github.com/user-attachments/assets/7c8b9ddb-36ac-4adc-835d-feed6f0d3912" />
+  
+=============  
+
+Alpha 2.0 Screenshots coming soon
+ 
