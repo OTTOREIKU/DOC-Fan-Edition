@@ -3,7 +3,7 @@ A fan made Derby Owners Club *adjacent* game for the terminal and beyond
 
 =============
 
-The first version of this game was made with python and only worked in the terminal, it essentially was a turn based horse racing game. I have since been working on porting it into GoDOT and have a working alpha. Alpha 2.0 doesnt have the trading feature (*yet*) but I am slowly bringing everything online as I learn how to use this new game engine. The alpha release is no where close to how I want to game to feel however it is in a functional-playable state right now so I wanted to put it out there in case anyone else has the itch for a DOC-spirited game. Hopefully in the next year I can ship a beautiful, functional, horse racing simulator.
+The first version of this game was made with python and only worked in the terminal, it essentially was a turn based horse racing game. I have since been working on porting it into GoDOT and have a working alpha. Alpha 2.0 doesnt have the trading feature (*yet*) but I am slowly bringing everything online as I learn how to use this new game engine. The alpha release is no where close to how I want to game to feel however it is in a functional-playable state right now so I wanted to put it out there in case anyone else has the itch for a DOC-spirited game. Hopefully in the next year I'll have created a beautiful, functional, horse racing simulator.
 
 ottoreiku@protonmail.com | Discord: OTTOREIKU
 
