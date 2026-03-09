@@ -75,9 +75,8 @@ This is a passion project for educational and entertainment purposes that has no
 I've used AI in parts of the development, mainly the math for the stats, AI horses, scaling, and racing as well as text in the giant compendium in 2.0. Once I have it in a place that I like, I am going to hire an artist to create all of the assets and someone to copyedit/proof all of the text.
   
 =============  
-
-<img width="1901" height="995" alt="1" src="https://github.com/user-attachments/assets/c4268d98-8076-4620-bfb2-a1b868a55369" />
-
+  
+xxx
 
 =============  
   
