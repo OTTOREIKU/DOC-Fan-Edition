@@ -76,7 +76,7 @@ I've used AI in parts of the development, mainly the math for the stats, AI hors
   
 =============  
   
-xxx
+<img width="1913" height="998" alt="1" src="https://github.com/user-attachments/assets/faa49535-4f0d-4fac-b19e-c12d7b9b2da8" />
 
 =============  
   
