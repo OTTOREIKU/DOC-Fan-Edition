@@ -75,6 +75,45 @@ This is a passion project for educational and entertainment purposes that has no
 I've used AI in parts of the development, mainly the math for the stats, AI horses, scaling, and racing as well as text in the giant compendium in 2.0. Once I have it in a place that I like, I am going to hire an artist to create all of the assets and someone to copyedit/proof all of the text.
   
 =============  
+
+<img width="1901" height="995" alt="1" src="https://github.com/user-attachments/assets/c4268d98-8076-4620-bfb2-a1b868a55369" />
+
+
+=============  
+  
+<img width="1916" height="1005" alt="2" src="https://github.com/user-attachments/assets/734adf51-455a-488b-8b67-403fdf27f644" />
+
+  
+=============  
+  
+<img width="1913" height="995" alt="3" src="https://github.com/user-attachments/assets/10d5d79d-f79b-4150-b549-1f83bfbf19ad" />
+
+  
+=============  
+  
+<img width="1913" height="1009" alt="4" src="https://github.com/user-attachments/assets/86e103b9-f328-4c77-a508-984819f35ea9" />
+
+  
+=============  
+  
+<img width="1912" height="997" alt="5" src="https://github.com/user-attachments/assets/169467b8-ca07-440a-a420-e2269f3d9c57" />
+
+  
+=============  
+  
+<img width="1916" height="999" alt="6" src="https://github.com/user-attachments/assets/083268c1-8e71-4e92-8f41-23a367ac47e5" />
+
+  
+=============  
+  
+<img width="1901" height="1000" alt="7" src="https://github.com/user-attachments/assets/9c3aecfc-4e27-491e-992a-681cc1cd2167" />
+
+  
+=============  
+
+
+  
+Alpha 1.0 Screenshots:  
   
 <img width="587" height="374" alt="1" src="https://github.com/user-attachments/assets/890b55d0-b834-42e8-a748-bd9db018733a" />
   
@@ -90,13 +129,6 @@ I've used AI in parts of the development, mainly the math for the stats, AI hors
   
 <img width="602" height="432" alt="5" src="https://github.com/user-attachments/assets/0b1da003-a1c3-42b9-aa62-24f33c94fb33" />
   
-=============  
-  
-<img width="723" height="962" alt="12" src="https://github.com/user-attachments/assets/cc9c4edb-03c8-48e4-b47b-3e0c2deef645" />
-  
-=============  
-  
-<img width="608" height="817" alt="7" src="https://github.com/user-attachments/assets/1a9ee976-d527-4516-9539-a46a763e58ad" />
   
 =============  
   
@@ -107,7 +139,3 @@ I've used AI in parts of the development, mainly the math for the stats, AI hors
  <img width="400" height="860" alt="Noble Cloud_Gen1_Collection" src="https://github.com/user-attachments/assets/d70c1587-18d6-4526-97a3-3304fd97a3d1" />
  <img width="400" height="860" alt="Silent Knight_Gen0_Trade" src="https://github.com/user-attachments/assets/7c8b9ddb-36ac-4adc-835d-feed6f0d3912" />
   
-=============  
-
-Alpha 2.0 Screenshots coming soon
- 
