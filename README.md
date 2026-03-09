@@ -36,11 +36,11 @@ Tons of facility upgrades, gear, and consumables.
 - Hall of Fame  
 Keep track of your retired horses and see which titles are giving bonuses to your entire stable. See which of your horses have contributed the most to your dynasty.  
   
-- Compendium
+- Compendium  
 *In 2.0 this section is much larger and covers more of the math behind the game*  
 General rules and conditions are housed here as well as an area to keep track of discovered titles and what they do along with bosses. Preview discovered rare coats/colors.  
 
-- Bosses
+- Bosses  
 *Rivals have also been added to 2.0*  
 Handful of powerful boss horses that have a low chance to spawn in your races. Beat them to take their titles and gain permanent buffs.    
   
