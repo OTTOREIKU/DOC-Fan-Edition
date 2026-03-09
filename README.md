@@ -22,12 +22,13 @@ Choose a horse and take on races throughout the month with dynamic random events
 - Tension / Strain system  (**This has been removed in 2.0**)  
 Build tension by strategically holding your horse and unleash it when whipping. Whipping your horse will build strain and cause the horse to use extra stamina. Release strain by holding, coasting, or urging. Mix in different actions to balance these two.  
   
-- Breeding / Genetics  
+- Breeding / Genetics
+*This system has been expanded upon in 2.0 with a few extra features as well as a ton of new coat colors and markings*  
 Fairly in depth breeding with systems built to pass down genetic markers, boss titles, and maximum potential stats. Currently supporting Generations 0-10 with Gen 6+ having legendary colors & coats.  
-*This system has been expanded upon in 2.0 with a few extra features*  
   
 - Farm / Riding Academy  
-Retired horses live on the farm and contribute lifetime earned titles to give bonuses to the entire stable. Move your horse over to the Riding Academy to help train other horses and make extra monthly income based on the stats of the horse at retirement.  
+Retired horses live on the farm and contribute lifetime earned titles to give bonuses to the entire stable.
+Move your horse over to the Riding Academy to help train other horses and make extra monthly income based on the stats of the horse at retirement.  
   
 - Store  
 Tons of facility upgrades, gear, and consumables. 
@@ -35,15 +36,16 @@ Tons of facility upgrades, gear, and consumables.
 - Hall of Fame  
 Keep track of your retired horses and see which titles are giving bonuses to your entire stable. See which of your horses have contributed the most to your dynasty.  
   
-- Compendium  
+- Compendium
+*In 2.0 this section is much larger and covers more of the math behind the game*  
 General rules and conditions are housed here as well as an area to keep track of discovered titles and what they do along with bosses. Preview discovered rare coats/colors.  
-*This system is much larger and covers more of the math behind the game in the 2.0 version*  
 
-- Bosses  
-Handful of powerful boss horses that have a low chance to spawn in your races. Beat them to take their titles and gain permanent buffs.  
+- Bosses
 *Rivals have also been added to 2.0*  
+Handful of powerful boss horses that have a low chance to spawn in your races. Beat them to take their titles and gain permanent buffs.    
   
-- Trading Hub (**Not yet functional in 2.0**)  
+- Trading Hub  
+(**Not yet functional in 2.0**)  
 Import or Export horses (Active and Retired) to trade with other players or simply generate a card for your collection. Horse trading data is encoded to the metadata of the generated PNG image so you can simply send someone the card file and the game can import directly from that. This is still a work in progress but I tried to emulate the physical cards from DOC.  
   
 - Jockey System (**This system has been removed in 2.0**)  
@@ -54,6 +56,7 @@ This is a work in progress and not at a place that I am fully happy with. It is 
 =============  
 
 Once you buy your first horse from the market the game will create your stable.json file **in the same location as the EXE** so keep that in mind if you end up moving your game to a new location. When using the Trade Hub to generate cards the game will **make a new 'cards' folder in the same location as the EXE** as well.  
+  
 *In 2.0 the save is currently stored in Appdata/Roaming/Godot/app_userdata/DerbyDynasty*
   
 =============  
