@@ -3,7 +3,7 @@ A fan made Derby Owners Club *adjacent* game for the terminal and beyond
 
 =============
 
-The first version of this game was made with python and only worked in the terminal, it essentially was a turn based horse racing game. I have since been working on porting it into GoDOT and have a working alpha. Alpha 2.0 doesnt have the trading feature (*yet*) but I am slowly bringing everything online as I learn how to use this new game engine. The alpha release is no where close to how I want to game to feel however it is in a functional-playable state right now so I wanted to put it out there in case anyone else has the itch for a DOC-spirited game. Hopefully in the next year I'll have created a beautiful, functional, horse racing simulator.
+The first version of this game was made with python and only worked in the terminal, it essentially was a turn based horse racing game. I have since been working on porting it into GoDOT and have a working alpha. Alpha 2.0 doesnt have the trading feature (*yet*) but I am slowly bringing everything online as I learn how to use this new game engine. The alpha release is no where close to how I want to game to feel however it is in a functional-playable state right now so I wanted to put it out there in case anyone else has the itch for a DOC-spirited game. Hopefully in the next year I'll have created a fun, functional, horse racing/collecting simulator.
 
 ottoreiku@protonmail.com | Discord: OTTOREIKU
 
@@ -17,14 +17,10 @@ ottoreiku@protonmail.com | Discord: OTTOREIKU
 Dynamic marketplace generating random horses every month to purchase. New markets appear once you breed new generations of horses.  
   
 - Active Stable / Racing  
-Choose a horse and take on races throughout the month with dynamic random events. Train your horse in between weeks to build up their stats.  
-
-- Tension / Strain system  (**This has been removed in 2.0**)  
-Build tension by strategically holding your horse and unleash it when whipping. Whipping your horse will build strain and cause the horse to use extra stamina. Release strain by holding, coasting, or urging. Mix in different actions to balance these two.  
+Choose a horse and take on races throughout the year with dynamic random events. Train your horse in between weeks to build up their stats. Time only moves for your horse instead of globally.   
   
 - Breeding / Genetics  
-*This system has been expanded upon in 2.0 with a few extra features as well as a ton of new coat colors and markings*  
-Fairly in depth breeding with systems built to pass down genetic markers, boss titles, and maximum potential stats. Currently supporting Generations 0-10 with Gen 6+ having legendary colors & coats.  
+Fairly in depth breeding with systems built to pass down genetic markers, boss titles, and maximum potential stats. Currently supporting Generations 0-10 with each generation having legendary coats & colors.  
   
 - Farm / Riding Academy  
 Retired horses live on the farm and contribute lifetime earned titles to give bonuses to the entire stable.
@@ -37,32 +33,27 @@ Tons of facility upgrades, gear, and consumables.
 Keep track of your retired horses and see which titles are giving bonuses to your entire stable. See which of your horses have contributed the most to your dynasty.  
   
 - Compendium  
-*In 2.0 this section is much larger and covers more of the math behind the game*  
 General rules and conditions are housed here as well as an area to keep track of discovered titles and what they do along with bosses. Preview discovered rare coats/colors.  
-
+  
 - Bosses  
-*Rivals have also been added to 2.0*  
-Handful of powerful boss horses that have a low chance to spawn in your races. Beat them to take their titles and gain permanent buffs.    
+Handful of powerful boss horses that have a low chance to spawn in your races. Beat them to take their titles and gain permanent buffs. A roster of rivals will challenge you gaining in strength as you beat them or becoming your nemesis if you lose to them too often.     
   
 - Trading Hub  
 (**Not yet functional in 2.0**)  
 Import or Export horses (Active and Retired) to trade with other players or simply generate a card for your collection. Horse trading data is encoded to the metadata of the generated PNG image so you can simply send someone the card file and the game can import directly from that. This is still a work in progress but I tried to emulate the physical cards from DOC.  
   
-- Jockey System (**This system has been removed in 2.0**)  
-This is a work in progress and not at a place that I am fully happy with. It is disabled by default but you can turn it on in the settings if you want to try it. Once enabled it will add a new area to the compendium where you can get more info on it.  
-  
 --- There are still a lot of things I need to fix up (this is an alpha after all) so a lot of the naming and prices etcetc are going to be changing as I refine everything. You will certainly find errors but I hope you have fun ---
   
 =============  
-
-Once you buy your first horse from the market the game will create your stable.json file **in the same location as the EXE** so keep that in mind if you end up moving your game to a new location. When using the Trade Hub to generate cards the game will **make a new 'cards' folder in the same location as the EXE** as well.  
   
-*In 2.0 the save is currently stored in Appdata/Roaming/Godot/app_userdata/DerbyDynasty*
+*In 2.0 the save is currently stored in Appdata/Roaming/Godot/app_userdata/DerbyDynasty*  
+  
+(1.0) Once you buy your first horse from the market the game will create your stable.json file **in the same location as the EXE** so keep that in mind if you end up moving your game to a new location. When using the Trade Hub to generate cards the game will **make a new 'cards' folder in the same location as the EXE** as well.  
   
 =============  
-
+  
 **Starting Tips:**  
-- First thing you need to do is go to the market and buy a horse. Then back out to the main menu and go to your active stable, pick your horse, and enter the calendar to begin training and racing.
+- First thing you need to do is go to the market and buy a horse. Then over to your active stable, pick your horse, and enter the calendar to begin training and racing.
 - Gen0 horses (your first horse) are not supposed to be super strong. You want to race your horse until you notice it's not getting stats anymore (it hit its cap) and then you want to purchase the opposite gender and race them. Once you have two horses max stats and retired, you breed them to make a Gen1 horse which will have higher max caps for their stats. Thats the basic loop - train to max, breed to get higher generation, etc
   
 =============  
