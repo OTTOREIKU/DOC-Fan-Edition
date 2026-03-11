@@ -47,6 +47,7 @@ Import or Export horses (Active and Retired) to trade with other players or simp
 =============  
   
 *In 2.0 the save is currently stored in Appdata/Roaming/Godot/app_userdata/DerbyDynasty*  
+*Hopefully in the near future I'll add the ability to choose where the save is created/stored*  
   
 (1.0) Once you buy your first horse from the market the game will create your stable.json file **in the same location as the EXE** so keep that in mind if you end up moving your game to a new location. When using the Trade Hub to generate cards the game will **make a new 'cards' folder in the same location as the EXE** as well.  
   
