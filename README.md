@@ -39,7 +39,6 @@ General rules and conditions are housed here as well as an area to keep track of
 Handful of powerful boss horses that have a low chance to spawn in your races. Beat them to take their titles and gain permanent buffs. A roster of rivals will challenge you gaining in strength as you beat them or becoming your nemesis if you lose to them too often.     
   
 - Trading Hub  
-(**Not yet functional in 2.0**)  
 Import or Export horses (Active and Retired) to trade with other players or simply generate a card for your collection. Horse trading data is encoded to the metadata of the generated PNG image so you can simply send someone the card file and the game can import directly from that. This is still a work in progress but I tried to emulate the physical cards from DOC.  
   
 --- There are still a lot of things I need to fix up (this is an alpha after all) so a lot of the naming and prices etcetc are going to be changing as I refine everything. You will certainly find errors but I hope you have fun ---
